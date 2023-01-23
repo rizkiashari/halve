@@ -75,24 +75,34 @@
 				</a>
 				<a
 					class="navbar-item {currentUrl.split('#')[1] === 'how-it' ? 'active-nav' : ''}"
-					href="#how-it">How it Work</a
+					href="#how-it"
 				>
+					How it Work
+				</a>
 				<a
 					class="navbar-item {currentUrl.split('#')[1] === 'about-us' ? 'active-nav' : ''}"
-					href="#about-us">About Us</a
+					href="#about-us"
 				>
+					About Us
+				</a>
 				<a
 					class="navbar-item {currentUrl.split('#')[1] === 'services' ? 'active-nav' : ''}"
-					href="#services">Services</a
+					href="#services"
 				>
+					Services
+				</a>
 				<a
 					class="navbar-item {currentUrl.split('#')[1] === 'volunteer' ? 'active-nav' : ''}"
-					href="#volunteer">Volunteer</a
+					href="#volunteer"
 				>
+					Volunteer
+				</a>
 				<a
 					class="navbar-item {currentUrl.split('#')[1] === 'contact-us' ? 'active-nav' : ''}"
-					href="#contact-us">Contact Us</a
+					href="#contact-us"
 				>
+					Contact Us
+				</a>
 				<div class="dropdown desktop-tr navbar-item">
 					<div class="dropdown-trigger">
 						<button
@@ -131,6 +141,10 @@
 		height: 2rem;
 		object-fit: cover;
 		margin-top: 0.5rem;
+	}
+
+	.navbar-end {
+		gap: 1rem;
 	}
 
 	.shadow {
