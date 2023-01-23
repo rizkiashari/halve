@@ -1,5 +1,15 @@
 <script>
 	import '../app.css';
+	import Navbar from '$components/Navbar.svelte';
 </script>
 
-<slot />
+<Navbar />
+<div class="container">
+	<slot />
+</div>
+
+<style>
+	.container {
+		margin-top: 5rem;
+	}
+</style>
