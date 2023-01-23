@@ -1,2 +1,18 @@
 @import '/node_modules/bulma/css/bulma.min.css';
 @import '/node_modules/font-awesome/css/font-awesome.css';
+
+* {
+	transition: all 0.3s ease;
+	font-family: 'Poppins', sans-serif;
+	background: #fff;
+}
+
+.container {
+	background: transparent;
+}
+
+.font-caveat {
+	font-family: 'Caveat', cursive;
+	color: #bbcba0;
+	font-weight: 400;
+}

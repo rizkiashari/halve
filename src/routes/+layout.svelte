@@ -4,12 +4,12 @@
 </script>
 
 <Navbar />
-<div class="container">
+<div class="mt-6rem is-white">
 	<slot />
 </div>
 
 <style>
-	.container {
-		margin-top: 5rem;
+	.mt-6rem {
+		margin-top: 6rem;
 	}
 </style>

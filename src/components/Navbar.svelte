@@ -213,4 +213,25 @@
 			margin-left: 1rem;
 		}
 	}
+
+	@media screen and (max-width: 408px) {
+		.icon-flag {
+			width: 1.4rem;
+			height: 1rem;
+		}
+
+		.content-flag > p {
+			font-size: 0.8rem;
+		}
+
+		.down-translate > p {
+			font-size: 0.8rem;
+		}
+	}
+
+	@media screen and (max-width: 360px) {
+		.icon-flag {
+			width: 1.2rem;
+		}
+	}
 </style>
