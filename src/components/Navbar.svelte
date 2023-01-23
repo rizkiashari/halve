@@ -18,10 +18,6 @@
 			event.stopPropagation();
 			this.classList.toggle('is-active');
 		});
-		document.querySelector('.services').addEventListener('click', function (event) {
-			event.stopPropagation();
-			this.classList.toggle('is-active');
-		});
 	});
 
 	$: {
@@ -180,10 +176,6 @@
 	.active-nav {
 		color: #add66b;
 		border-bottom: 1px solid #add66b;
-	}
-
-	.btn-down {
-		padding: 0;
 	}
 
 	@media screen and (max-width: 1023px) {
