@@ -1,4 +1,5 @@
 <div class="bg-home-1">
+	<img src="/images/home-section.png" class="home-mobile" alt="section home" />
 	<div class="container">
 		<div class="section-home">
 			<p class="font-caveat text-title">Let's fight hunger in Indonesia.</p>
@@ -14,6 +15,10 @@
 		min-height: 90vh;
 		height: 100%;
 		width: 100%;
+	}
+
+	.home-mobile {
+		display: none;
 	}
 
 	.section-home {
@@ -44,18 +49,33 @@
 		}
 	}
 
-	@media screen and (max-width: 408px) {
+	@media screen and (max-width: 500px) {
 		.bg-home-1 {
+			background-image: none;
+			position: relative;
 			min-height: 40vh;
 		}
 		.text-title {
 			font-size: 1.2rem;
+		}
+
+		.home-mobile {
+			display: block;
+			position: absolute;
+			width: 100%;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin-bottom: 1rem;
 		}
 	}
 
 	@media screen and (max-width: 360px) {
 		.bg-home-1 {
 			min-height: 30vh;
+		}
+		.text-title {
+			font-size: 1rem;
 		}
 	}
 </style>

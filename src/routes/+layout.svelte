@@ -4,7 +4,7 @@
 </script>
 
 <Navbar />
-<div class="mt-6rem is-white">
+<div class="mt-6rem" style="background-color: #fff;">
 	<slot />
 </div>
 

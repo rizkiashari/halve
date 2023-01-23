@@ -214,7 +214,7 @@
 		}
 	}
 
-	@media screen and (max-width: 408px) {
+	@media screen and (max-width: 500px) {
 		.icon-flag {
 			width: 1.4rem;
 			height: 1rem;
